@@ -1,105 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet"> 
+</head>
+<body>
 
-.con{
-    display: flex;
-    flex-wrap:wrap;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    justify-content:center;
-    align-items:center;
-    align-content:center;
-   
-}
-h1{
-    display: flex;
-    justify-content: center;
-    font-family: 'Moon Dance', cursive;
-}
-
-    
-.b1{
-    background-image: url("pic1.jpg");
-    
-    border: 1px solid rgb(143, 87, 61) ;
-    width: 9em;
-    height: 9em;
-     background-size: cover;
-    background-repeat: no-repeat; 
-    align-content: center;
-    text-align: center;
-    
-    
-
-}
-
-.b2{
-    border: 1px solid rgb(143, 87, 61);
-    background-image: url("pic2.jpg");
-    width: 9em;
-    height: 9em;
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-}
-.b3{
-    border: 1px solid rgb(143, 87, 61);
-    background-image: url("pic3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    width: 9em;
-    height: 9em;
-}
-.b4{
-    border: 1px solid rgb(143, 87, 61);
-    background-image: url("pic4.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 9em;
-  
-    height: 9em;
-}
-.b5{
-    border: 1px solid rgb(143, 87, 61);
-    background-image: url("pic5.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 9em;
-  
-    height: 9em;
-    
-}
-.b6{
-    border: 1px solid rgb(143, 87, 61);
-    background-image: url("pic6.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 9em;
-  
-    height: 9em;
-    
-}
-.b7{
-    border: 1px solid rgb(143, 87, 61);
-    background-image: url("pic7.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 9em;
-  
-    height: 9em;
-    
-}
-.b8{
-    border: 1px solid rgb(143, 87, 61);
-    background-image: url("pic8.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 9em;
-  
-    height: 9em;
-    
-}
+    <h1>First Nightout</h1>
+    <div class="con">
+       
+        
+        <div class="b1">
+           
+            <a href="image1.html"><img src="mee.png" alt="img"></a>
+            
+          </div>
+          <div class="b2">
+            
+              <a href="image2.html"><img src="mee.png" alt=""></a>
+          </div>
+          <div class="b3">
+              <a href="image3.html"><img src="mee.png" alt=""></a>
+          </div>
+          <div class="b4">
+              <a href="image4.html"><img src="mee.png" alt=""></a>
+             
+          </div>
+          <div class="b5">
+              <a href="image5.html"><img src="mee.png" alt=""></a>
+             
+          </div>
+          <div class="b6">
+              <a href="image6.html"><img src="mee.png" alt=""></a>
+             
+          </div>
+          <div class="b7">
+           
+            <a href="image7.html"><img src="mee.png" alt="img"></a>
+            
+          </div>
+          <div class="b8">
+            
+              <a href="image8.html"><img src="mee.png" alt=""></a>
+          </div>
+       
+        
+        
+    </div>
+</body>
+</html>
